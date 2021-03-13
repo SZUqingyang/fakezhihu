@@ -1,0 +1,72 @@
+{
+  "id": "2397004",
+  "name": "fakezhihu",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "688077",
+      "name": "回答 A",
+      "font_class": "huidaa",
+      "unicode": "e777",
+      "unicode_decimal": 59255
+    },
+    {
+      "icon_id": "12875242",
+      "name": "文章",
+      "font_class": "icon_A",
+      "unicode": "e6ad",
+      "unicode_decimal": 59053
+    },
+    {
+      "icon_id": "17719697",
+      "name": "想法",
+      "font_class": "xiangfa",
+      "unicode": "e6a4",
+      "unicode_decimal": 59044
+    },
+    {
+      "icon_id": "3739978",
+      "name": "笔",
+      "font_class": "bi",
+      "unicode": "e611",
+      "unicode_decimal": 58897
+    },
+    {
+      "icon_id": "5035163",
+      "name": "圆桌",
+      "font_class": "yuanzhuo",
+      "unicode": "e62a",
+      "unicode_decimal": 58922
+    },
+    {
+      "icon_id": "11806639",
+      "name": "书店荐购",
+      "font_class": "shudianjiangou",
+      "unicode": "e603",
+      "unicode_decimal": 58883
+    },
+    {
+      "icon_id": "13744079",
+      "name": "直播",
+      "font_class": "zhibo",
+      "unicode": "e62d",
+      "unicode_decimal": 58925
+    },
+    {
+      "icon_id": "18267944",
+      "name": "人民币",
+      "font_class": "renminbi",
+      "unicode": "e995",
+      "unicode_decimal": 59797
+    },
+    {
+      "icon_id": "1348255",
+      "name": "默认头像",
+      "font_class": "morentouxiang",
+      "unicode": "e616",
+      "unicode_decimal": 58902
+    }
+  ]
+}

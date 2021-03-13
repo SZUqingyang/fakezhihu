@@ -1,0 +1,202 @@
+.home .main-header {
+  position: relative;
+  z-index: 100;
+  min-width: 1032px;
+  overflow: hidden;
+  background: #FFFFFF;
+  box-shadow: 1px 3px 3px rgba(26, 26, 26, 0.1);
+  background-clip: content-box;
+}
+
+.home .main-header .header-content {
+  position: relative;
+  display: flex;
+  width: 1000px;
+  height: 52px;
+  padding: 0 16px;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.home .main-header .header-content .logo {
+  height: 45px;
+}
+
+.home .main-header .header-content .search {
+  width: 300px;
+}
+
+.home .main-header .header-content .userInfo {
+  flex: 1;
+  justify-content: flex-end;
+  display: flex;
+  align-items: center;
+}
+
+.home .main-content {
+  display: flex;
+  align-items: flex-start;
+  width: 1000px;
+  padding: 0 16px;
+  margin: 10px auto;
+}
+
+.home .main-content .list {
+  flex-shrink: 0;
+  margin-right: 10px;
+  margin-bottom: 0;
+  width: 694px;
+}
+
+.home .main-content .list .answer-main {
+  text-align: left;
+}
+
+.home .main-content .list .answer-main .vote {
+  font-size: 12px;
+  color: gray;
+}
+
+.home .sidebar {
+  flex: 1;
+  font-size: 14px;
+}
+
+.home .sidebar .wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.home .sidebar .wrapper .icon-item {
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  margin: 20px 0;
+  width: 33%;
+}
+
+.signup {
+  background-image: url(../imgs/sign_up_bg.png);
+  height: 100%;
+}
+
+.signup .signup-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 688px;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+.signup .signup-wrapper .signup-content {
+  margin: 0px auto 50px;
+  width: 500px;
+  border-radius: 15px;
+}
+
+.signup .signup-wrapper .signup-content .el-card__body img {
+  margin: 30px auto 0px;
+  width: 100px;
+  border-radius: 50%;
+  background-color: #edeaea;
+  box-shadow: 2px 2px 2px gray;
+}
+
+.signup .signup-wrapper .signup-content .el-card__body p {
+  color: #0084FF;
+  font-weight: 600;
+  font-size: 22px;
+}
+
+.signup .signup-wrapper .signup-content .el-card__body .login {
+  padding: 20px;
+}
+
+.signup .signup-wrapper .signup-content .el-card__body .register {
+  padding: 20px;
+}
+
+.signup .signup-wrapper .signup-content .el-card__body .existingAccount {
+  background-color: #e2e4e4;
+  font-size: 20px;
+  height: 50px;
+  line-height: 50px;
+}
+
+.signup .signup-wrapper .signup-content .el-card__body .existingAccount span {
+  color: #175199;
+  cursor: pointer;
+}
+
+.editor-header {
+  position: relative;
+  display: flex;
+  width: 1000px;
+  height: 52px;
+  padding: 0 16px;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.editor-header .logo-wrapper {
+  position: absolute;
+  left: 30px;
+  align-self: stretch;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  float: left;
+  display: flex;
+}
+
+.editor-header .logo-wrapper .logo {
+  height: 45px;
+}
+
+.editor-header .header-content {
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  width: 660px;
+  text-align: left;
+  white-space: nowrap;
+}
+
+.editor-header .header-content .title {
+  font-weight: 600;
+  margin-right: 20px;
+}
+
+.editor-header .functions {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.editor .editor-header-content {
+  position: relative;
+  z-index: 100;
+  min-width: 1032px;
+  overflow: hidden;
+  background: #FFFFFF;
+  box-shadow: 1px 3px 3px rgba(26, 26, 26, 0.1);
+  background-clip: content-box;
+}
+
+.editor .content {
+  width: 660px;
+  margin: 0 auto;
+}
+
+.editor .content .oldImg {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.editor .rich-text-editor {
+  width: 1000px;
+  margin: 30px auto;
+}
